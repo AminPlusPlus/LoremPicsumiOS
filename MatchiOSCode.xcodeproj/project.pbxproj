@@ -12,7 +12,6 @@
 		0D460F48264724360099490F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D460F47264724360099490F /* MainViewController.swift */; };
 		0D460F4D264724370099490F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D460F4C264724370099490F /* Assets.xcassets */; };
 		0D460F50264724370099490F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D460F4E264724370099490F /* LaunchScreen.storyboard */; };
-		0D460F5B264724380099490F /* MatchiOSCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D460F5A264724380099490F /* MatchiOSCodeTests.swift */; };
 		0D460F66264724380099490F /* MatchiOSCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D460F65264724380099490F /* MatchiOSCodeUITests.swift */; };
 		0D751107264A30BE004F8AFB /* ImagesMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D751106264A30BE004F8AFB /* ImagesMainPage.swift */; };
 		0D751110264A371C004F8AFB /* UnitTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75110F264A371C004F8AFB /* UnitTestHelpers.swift */; };
@@ -62,7 +61,6 @@
 		0D460F4F264724370099490F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D460F51264724370099490F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D460F56264724380099490F /* MatchiOSCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchiOSCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D460F5A264724380099490F /* MatchiOSCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchiOSCodeTests.swift; sourceTree = "<group>"; };
 		0D460F5C264724380099490F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D460F61264724380099490F /* MatchiOSCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchiOSCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D460F65264724380099490F /* MatchiOSCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchiOSCodeUITests.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 			children = (
 				0D751118264A3786004F8AFB /* Tests */,
 				0D75110E264A3705004F8AFB /* Helper */,
-				0D460F5A264724380099490F /* MatchiOSCodeTests.swift */,
 				0D460F5C264724380099490F /* Info.plist */,
 			);
 			path = MatchiOSCodeTests;
@@ -450,7 +447,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D75111C264A37C6004F8AFB /* ImageDetailTests.swift in Sources */,
-				0D460F5B264724380099490F /* MatchiOSCodeTests.swift in Sources */,
 				0D751110264A371C004F8AFB /* UnitTestHelpers.swift in Sources */,
 				0D751124264A3968004F8AFB /* ExtensionsTests.swift in Sources */,
 			);
