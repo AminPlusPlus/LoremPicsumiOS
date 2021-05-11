@@ -14,7 +14,6 @@ final class ImageCollectionCell: UICollectionViewCell {
     weak var viewModel : ImageCellViewModelType? {
         didSet(viewmodel) {
             guard let viewmodel = viewModel else {return}
-            self.cellImage.image = nil
             self.cellImage.load(url: viewmodel.downloadURL)
             self.authorLabel.attributedText = authorLabelAttribute(named: viewmodel.author)
         }
@@ -63,6 +62,11 @@ final class ImageCollectionCell: UICollectionViewCell {
     }
         
     //MARK:- Methods
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.cellImage.image  = placeHolderImage
+        self.authorLabel.text = nil
+    }
     func configureViewModel (viewModel : ImageCellViewModelType) {
         self.viewModel = viewModel
         self.cellImage.load(url: viewModel.downloadURL)
